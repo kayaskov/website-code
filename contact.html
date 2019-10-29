@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kaya Skov - Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Design</a></li>
+            <li><a href="photography.html">Photography</a></li>
+        </ul>
+
+        <a href="index.html">
+        <img src="Afbeeldingen/kaya.png" alt="Kaya Skov logo" class="logo">
+        </a>
+
+        <ul>
+            <li><a href="about-me.html">About Me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </nav>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Contact</legend>
+                    <label>First Name
+                            <input type="text" name="firstname" placeholder="Your name.." required>
+                        </label>
+
+                    <label>Last Name
+                            <input type="text" name="lastname" placeholder="Your last name.." required>
+                        </label>
+
+                    <label for="country">Country
+                            <select id="country" name="country">
+                              <option value="Netherlands">Netherlands</option>
+                              <option value="sa">South African</option>
+                              <option value="denmark">Denmark</option>
+                            </select>
+                        </label>
+
+                    <label for="subject">Subject
+                            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                        </label>
+
+                    <input type="submit" value="Submit">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+</body>
+
+
+</html>
