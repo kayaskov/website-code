@@ -18,6 +18,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100vw;
+}
+
+a:hover {
+    color: #ff6d7a;
+    text-decoration: underline wavy;
 }
 
 a {
@@ -25,9 +32,7 @@ a {
     color: #00a98d;
 }
 
-a:hover {
-    color: #ff6d7a;
-}
+
 
 a:active {
     color: #ff6d7a;
@@ -38,6 +43,7 @@ ul {
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+
 }
 
 li {
@@ -60,6 +66,22 @@ article img {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 2vw;
+    padding: 8em 2em;
+
+}
+
+section H1 {
+    display: none;
+}
+
+.button {
+    background-color: #ff6d7a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4em;
+    cursor: pointer;
+    cursor: pointer;
 }
 
 /* About Me*/
@@ -102,7 +124,6 @@ form {
     color: #ff6d7a;
     display: flex;
     justify-content: center;
-    margin-top: 4em;
 }
 
 input[type=text],
@@ -140,6 +161,7 @@ input[type=submit]:hover {
 
 fieldset {
     border: none;
+    margin-top: 8em;
 }
 
 legend {
