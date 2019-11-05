@@ -26,7 +26,7 @@ nav {
     width: 100vw;
 }
 
-a:hover {
+nav a:hover {
     color: #ff6d7a;
     text-decoration: underline wavy;
 }
@@ -79,6 +79,18 @@ section H1 {
     display: none;
 }
 
+.trans {
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.59, -0.19, .94, .65);
+}
+
+.trans:hover {
+    width: 80%;
+    transform: rotate(45deg)
+}
+
+/*maakt de class trans 80% van het orginineel en laat het 45 graden draaien*/
+
 footer h1 {
     position: fixed;
     top: 20%;
@@ -96,6 +108,11 @@ footer h1 {
     cursor: pointer;
     position: fixed;
     bottom: 1%;
+    transition-duration: 10s;
+}
+
+.button:hover {
+    width: 20%;
 }
 
 /* About Me*/
