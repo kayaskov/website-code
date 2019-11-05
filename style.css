@@ -12,6 +12,10 @@ body {
     margin: 0;
 }
 
+.effect {
+    background-color: black;
+}
+
 nav {
     background-color: white;
     color: #00a98d;
@@ -65,6 +69,7 @@ article img {
 #gallerij {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    /*Bron: Grid Code geinspireerd door Layout Land Created by Jen Simmons, Mozilla Designer and Developer Advocate.*/
     grid-gap: 2vw;
     padding: 8em 2em;
 
@@ -180,4 +185,10 @@ legend {
     margin-bottom: .5em;
     color: rgb(232, 188, 64);
     text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightcoral;
+    }
 }
