@@ -259,6 +259,7 @@ legend {
 }
 
 footer p {
+    color: rgb(232, 188, 64);
     position: absolute;
     bottom: 1em;
     right: 1em;
